@@ -1,7 +1,7 @@
 # SVM_Tutorial
 Data Mining Course Project
 
-    h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 
 Daughter: Very nice Mummy! I think I see that having widest possible separation between the samples of classes can yiels a good classifier. But I am curious how would we make a decision rule mathematically that would use this decision boundary? 
