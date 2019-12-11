@@ -23,7 +23,7 @@ Lets start off with sweet great-grandmother Ann.
 
 **You:** You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. This allows us work with and separate non-linear data. This can be better visualized with the image below. 
 
-![transformation example](mother.png =100x20)
+![transformation example](mother.png)
 
 **Husband:** Honey, I have another question for you. How do you deal with overlap between data points? How do we decide where to draw the line in this case?
 
@@ -49,7 +49,7 @@ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 Now, imagine a vector w of any length you like constrained to be perpendicular to the median line or the gutter line of the street. We don't know anything about its length yet. Then we also have some unknown u. And we have a vector that points to it by excel as shown below. 
 
-![image 1](image1.png)
+![image 1](image1.png =20x20)
 
 To be able to classify that unknown into one of the two classes, what we would really be interested in is whether that unknown is on the right side of the street or on the left side of the street. So what we want to do is we want to project that vector u down on to one that’s perpendicular to the street. With this we will have the distance in this direction of w. And, the further ought we go the closer we will get to being on the right side of the street(right from the median line). So what we can do is we can say, let's take w, and dot it with u, and measure whether or not that number is equal to or greater than some constant. 
 
