@@ -25,7 +25,7 @@ Lets start off with sweet great-grandmother Ann.
 
 **You:** We can also look at the gamma parameter. The gamma parameter defines how far the influence of a single training example reaches. When gamma values are low, we calculate where the separation line should be using points farthest away from the probable separation line. A low gamma value would indicate that the data points are sparse. When gamma values are high, we calculate where the separation line should be using points closest to the probable separation line.
 
-**You:** Once we tune our parameters, the last thing we can look at is the margin. The margin is the distance of the closest data points from the separation line, which would be the hyperplane. When we define the optimal hyperplane, we are essentially maximazing the margin. A good margin is equidistant as far as possible from the different classes. Once we achieve all this, we should have high accuracy and low misclassification.
+**You:** Once we tune our parameters, the last thing we can look at is the margin. The margin is the distance of the closest data points from the separation line, which would be the hyperplane. When we define the optimal hyperplane, we are essentially maximazing the margin. A good margin is equidistant as far as possible from the different classes. This implies we want the separation between both classes to be as large as possible. Once we achieve all this, we should have high accuracy and low misclassification.
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
