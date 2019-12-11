@@ -63,7 +63,7 @@ The trouble now is we don't know what constant to use. And we don't know which w
 
 <img src="image4.png" width="256" />
 
-To make things simpler we can reduce these two equations to one by introducing a new variable y_i such that y_i is equal to plus one, for positive samples and minus one for negative. Then we multiply both equations with $y_i$. In the case of negative samples multiplication with a -1 flips the inequality and both the equations become same.
+To make things simpler we can reduce these two equations to one by introducing a new variable y<sub>i</sub> such that y<sub>i</sub> is equal to plus one, for positive samples and minus one for negative. Then we multiply both equations with y<sub>i</sub>. In the case of negative samples multiplication with a -1 flips the inequality and both the equations become same.
 
 <img src="image5.png" width="256" />
 
