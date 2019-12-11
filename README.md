@@ -23,7 +23,7 @@ Lets start off with sweet great-grandmother Ann.
 
 **You:** You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. This allows us work with and separate non-linear data. This can be better visualized with the image below. 
 
-![transformation example](mother.png)
+![transformation example](mother.png =100x20)
 
 **Husband:** Honey, I have another question for you. How do you deal with overlap between data points? How do we decide where to draw the line in this case?
 
