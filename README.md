@@ -51,20 +51,15 @@ Now, imagine a vector w of any length you like constrained to be perpendicular t
 
 ![image 1](image1.png)
 
-To be able to classify that unknown into one of the two classes, what we would really be interested in is whether that unknown is on the right side of the street or on the left side of the street. So what we want to do is we want to project that vector u down on to one that’s perpendicular to the street. With this we will have the distance in this direction of w. And, the further ought we go the closer we will get to being on the right side of the street(right from the median line). So what we can do is we can say, let's take w, and dot it with u, and measure whether or not that number is equal to or greater than some constant. 
+To be able to classify that unknown into one of the two classes, what we would really be interested in is whether that unknown is on the right side of the street or on the left side of the street. So we want to project that vector u down on to one that’s perpendicular to the street. With this we will have the distance in this direction of w. And, the further ought we go the closer we will get to being on the right side of the street(right from the median line). So what we can do is we can say, let's take w, and dot it with u, and measure whether or not that number is equal to or greater than some constant. 
 
+![image 2](image2.png)
 
-So, Remember the dot product has taken the projection on the w. And the bigger that projection is the further out along this line, the projection will lie. And eventually it will be so big that the projection crosses the median line of the street and we will say it must be a positive sample. Or we can say without loss of generality, that the dot product, plus some constant b is equal to or greater than zero. If that's true, then it's a positive sample. So that's our decision rule.
+Remember the dot product has taken the projection on the w. And the bigger that projection is the further out along this line, the projection will lie. And eventually it will be so big that the projection crosses the median line of the street and we will say it must be a positive sample. Or we can say without loss of generality, that the dot product, plus some constant b is equal to or greater than zero. If that's true, then it's a positive sample. So that's our decision rule.
 
+![image 3](image3.png)
 
-
-So that's the decision rule and the trouble is we don't know what constant to use. And we don't know which W to use either.We know that w has to be perpendicular to the median line to the street. But there are lots of W's that are perpendicular to the median line because it can be of any length.So we don't have enough constraint here to fix a particular b or a particular w.
-
-
-So, next we're going to lay on some additional constraints on the situation so that we can actually calculate calculate a B and W.
-
-
-If we take that vector w, and we take the dot product of that with some positive sample and we have b just like our decision rule. We are going to want that to be equal to or greater than 1.
+Now the trouble is we don't know what constant to use. And we don't know which w to use either. We know that w has to be perpendicular to the median line to the street. But there are lots of w's that are perpendicular to the median line because it can be of any length. So we don't have enough constraint here to fix a particular b or a particular w. So, next we're going to lay on some additional constraints on the situation so that we can actually calculate calculate a b and w. If we take that vector w, and we take the dot product of that with some positive sample and we have b just like our decision rule. We are going to want that to be equal to or greater than 1.
 
 
 So in other words, u can be an unknown anywhere in this street, and be just a little bit greater or just a little bit less than zero. 
