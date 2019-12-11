@@ -53,20 +53,19 @@ Now, imagine a vector w of any length you like constrained to be perpendicular t
 
 To be able to classify that unknown into one of the two classes, what we would really be interested in is whether that unknown is on the right side of the street or on the left side of the street. So what we want to do is we want to project that vector u down on to one that’s perpendicular to the street. With this we will have the distance in this direction of w. And, the further ought we go the closer we will get to being on the right side of the street(right from the median line). So we can take u and dot it with w, and measure whether or not that number is equal to or greater than some constant. 
 
-![image 2](image2.png)
 <img src="image2.png" width="256" />
 
 Remember the dot product has taken the projection on the w. And the bigger that projection is the further out along this line, the projection will lie. And eventually it will be so big that the projection crosses the median line of the street and we will say it must be a positive sample. Or we can say without loss of generality, that the dot product, plus some constant b is equal to or greater than zero. If that's true, then it's a positive sample. So that's our decision rule.
 
-![image 3](image3.png)
+<img src="image3.png" width="256" />
 
 The trouble now is we don't know what constant to use. And we don't know which w to use either. We know that w has to be perpendicular to the median line to the street but there are lots of w's that are perpendicular to the median line because it can be of any length.So we don't have enough constraint here to fix a particular b or a particular w. So, next we're going to lay on some additional constraints on the situation so that we can actually calculate calculate b and w. If we take the dot product of w with some positive sample and we have b just like our decision rule, we are going to want that to be equal to or greater than 1. Likewise, if we dot w with some negative sample then that has to be equal to or less than minus one. 
 
-![image 4](image4.png)
+<img src="image4.png" width="256" />
 
 To make things simpler we can reduce these two equations to one by introducing a new variable y_i such that y_i is equal to plus one, for positive samples and minus one for negative. Then we multiply both equations with $y_i$. In the case of negative samples multiplication with a -1 flips the inequality and both the equations become same.
 
-![image 5](image5.png) 
+<img src="image5.png" width="256" />
 
 Now, let me bring that one over to the left side making it equal to or greater than zero. 
 
