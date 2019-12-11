@@ -59,7 +59,7 @@ Now, imagine a vector w of any length you like constrained to be perpendicular t
 
 To be able to classify that unknown into one of the two classes, what we would really be interested in is whether that unknown is on the right side of the street or on the left side of the street. So what we want to do is we want to project that vector u down on to one that’s perpendicular to the street. With this we will have the distance in this direction of w. And, the further ought we go the closer we will get to being on the right side of the street(right from the median line). So we can take u and dot it with w, and measure whether or not that number is equal to or greater than some constant. 
 
-<img src="image2.png" width="256" />
+<img align="right" src="image2.png" width="256">
 
 Remember the dot product has taken the projection on the w. And the bigger that projection is the further out along this line, the projection will lie. And eventually it will be so big that the projection crosses the median line of the street and we will say it must be a positive sample. Or we can say without loss of generality, that the dot product, plus some constant b is equal to or greater than zero. If that's true, then it's a positive sample. So that's our decision rule.
 
