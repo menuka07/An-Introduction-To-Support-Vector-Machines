@@ -51,7 +51,7 @@ Now, imagine a vector w of any length you like constrained to be perpendicular t
 
 ![image 1](image1.png)
 
-To be able to classify that unknown into one of the two classes, what we would really be interested in is whether that unknown is on the right side of the street or on the left side of the street. So we want to project that vector u down on to one that’s perpendicular to the street. With this we will have the distance in this direction of w. And, the further ought we go the closer we will get to being on the right side of the street(right from the median line). So what we can do is we can say, let's take w, and dot it with u, and measure whether or not that number is equal to or greater than some constant. 
+To be able to classify that unknown into one of the two classes, what we would really be interested in is whether that unknown is on the right side of the street or on the left side of the street. So what we want to do is we want to project that vector u down on to one that’s perpendicular to the street. With this we will have the distance in this direction of w. And, the further ought we go the closer we will get to being on the right side of the street(right from the median line). So we can take u and dot it with w, and measure whether or not that number is equal to or greater than some constant. 
 
 ![image 2](image2.png)
 
@@ -59,19 +59,15 @@ Remember the dot product has taken the projection on the w. And the bigger that 
 
 ![image 3](image3.png)
 
-Now the trouble is we don't know what constant to use. And we don't know which w to use either. We know that w has to be perpendicular to the median line to the street. But there are lots of w's that are perpendicular to the median line because it can be of any length. So we don't have enough constraint here to fix a particular b or a particular w. So, next we're going to lay on some additional constraints on the situation so that we can actually calculate calculate a b and w. If we take that vector w, and we take the dot product of that with some positive sample and we have b just like our decision rule. We are going to want that to be equal to or greater than 1.
+The trouble now is we don't know what constant to use. And we don't know which w to use either. We know that w has to be perpendicular to the median line to the street but there are lots of w's that are perpendicular to the median line because it can be of any length.So we don't have enough constraint here to fix a particular b or a particular w. So, next we're going to lay on some additional constraints on the situation so that we can actually calculate calculate b and w.
 
 
-So in other words, u can be an unknown anywhere in this street, and be just a little bit greater or just a little bit less than zero. 
-
-And if it is a positive sample. We are going to insist that this decision function gives a value of one or greater. Likewise, if W thought it was some negative sample then we are going to say that that has to be equal to or less than minus one.
+If we take the dot product of w with some positive sample and we have b just like our decision rule, we are going to want that to be equal to or greater than 1. Likewise, if we dot w with some negative sample then that has to be equal to or less than minus one. 
 
 
-But we're not quite done because I don't know, this is carrying around two equations like this. It's kind of a pain. So we're going to do is we're going to introduce another variable. To make things make life a little easier.
+To make things simpler we can reduce these two equations to one by introducing a new variable y_i such that y_i is equal to plus one, for positive samples and minus one for negative. Multiplying above equations with y_i gives:
 
-So what we're going to do is we're going to introduce a variable y_i such that y_i is equal to plus one, for positive samples and minus one for negative.
 
-Multiplying above equations with y_i gives:
 
 
 Notice that in the case of negative samples multiplication with a -1 flips the inequality. If you look at the equations carefully, oops, both the equations are the same. 
