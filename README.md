@@ -13,7 +13,9 @@ Lets start off with sweet great-grandmother Ann.
 
 **Grandmother Sarah:** Wow, this technique is really applicable to lots of cases but how do we classify the oranges and apples into different classes?
 
-**You:** Well grandma, what SVM does is, that it creates a line called the hyperplane which separate outs the different classes. In our case, the hpyerplane would separate the apples from the oranges. In the end, we want the optimal hyperplane that maximizes our ability to separate out the different classes and classify with high accuracy.
+**You:** Well grandma, what SVM does is, that it creates a separation line called the hyperplane which separate outs the different classes. In our case, we draw the hpyerplane in such a way that it would separate the apples from the oranges. In the end, we want the optimal hyperplane that maximizes our ability to separate out the different classes and classify with high accuracy.
+
+(You arrange the apples and oranges on the dinner table and put a stick between them to show the separation.)
 
 ![simple example](simple.png)
 
