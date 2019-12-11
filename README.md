@@ -98,19 +98,15 @@ Partial of L with respect to w gives following equation:
 Note that this is a differentiation with respect to a vector. The equation we get after differentiation tells us that vector w is a linear sum of samples in the gutter. Only the samples in the gutter because &alpha;<sub>i</sub> is zero for other samples. It is only non zero for samples in the gutter. 
 
 
-Now differentiating L with respect to b gives:
-<img src="image11.png" width="200" /> 
+Now differentiating L with respect to b gives: <img src="image11.png" width="200" /> 
 
-Now plugging the value of w back in L we get, 
-<img src="image12.png" width="456" /> 
+Now plugging the value of w back in L we get, <img src="image12.png" width="456" /> 
 
-Simplifying the equations gives:
-<img src="image13.png" width="456" /> 
+Simplifying the equations gives: <img src="image13.png" width="456" /> 
 
 Note that the optimization depends only on the dot product of the pairs of samples(x<sub>i</sub>, x<sub>j</sub>).
 
-Now putting the w back into the decision rule gives:
-<img src="image14.png" width="456" /> 
+Now putting the w back into the decision rule gives: <img src="image14.png" width="456" /> 
 
 
 Note that the decision rule also depends only on the dot product of the vectors and the unknown.
