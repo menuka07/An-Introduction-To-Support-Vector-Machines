@@ -35,7 +35,7 @@ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 **Daughter:** Very nice Mom! I think I see that having widest possible separation between the samples of classes can yield a good classifier but I am curious how would we make a decision rule mathematically that would use this decision boundary? 
 
-**You:** Brilliant question honey. This will require us to use some pencil and for the derivations. How about we do it after this yummy dinner?
+**You:** Brilliant question honey. This will require us to use some pencil and paper for the derivations. How about we do it after this yummy dinner?
 
 **Daughter:** Sounds good.
 
