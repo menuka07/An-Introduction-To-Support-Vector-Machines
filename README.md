@@ -4,16 +4,27 @@ Data Mining Course Project
 An Introduction To The World Of Support Vector Machines
 
 Imagine it's Thanksgiving Day and you are joined at the dinner table with all of your family. As you feast on Turkey and delicious Pumpkin pie, the topic of discussion at the table is centered around SVM. However, some of the relatives at the dinner table are quite confused as to what SVM even stands for. Now it is your job to explain to the confused relatives at the table what SVM is. You will start off with the most confused relative (great-grandmother) and make your way up to the relative that knows the most about SVM (daughter)
+
 Lets start off with sweet great-grandmother Ann.
+
 Great-Grandmother Ann: You keep talking about something called SVM. What in the world does that mean hon?
+
 You: Great-Granny, SVM stands for support vector machine. It is a technique used in machine learning to create decision boundaries in order to classify features as belonging to different classes. Lets say you have apples and oranges and you want to classify all the apples into one class and classify all the oranges as belonging to a different class. We can use SVM to make sure that all the apples and oranges get put in the correct category.
+
 Grandmother Sarah: Wow, this technique is really applicable to lots of cases but how do we classify the oranges and apples into different classes?
+
 You: Well grandma, what SVM does is, that it creates a line called the hyperplane which separate outs the different classes. In our case, the hpyerplane would separate the apples from the oranges. In the end, we want the optimal hyperplane that maximizes our ability to separate out the different classes and classify with high accuracy.
+
 Mother: That sounds fairly simple but I am sure there are more complex examples of things that need to be classified. What if there are examples where we cannot simply just draw a line and have the classes be divided?
+
 You: You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. This allows us work with and separate non-linear data.
+
 Husband: Honey, I have another question for you. How do you deal with overlap between data points? How do we decide where to draw the line in this case?
+
 You: Great question sweetheart! This is where tuning parameters come into play. In SVM, we have two main tuning parameters: regularization and gamma. Regularization works in that it calculates and tells the SVM how much to avoid misclassifying each of the features or you can say training samples. There are two approaches, either we draw a line that has some points as outliers or we draw a line that results in zero outliers by having a perfect partition. There are trade-offs involved if you choose either technique. If a low regularization value is given, then the SVM optimizer will choose to have some outliers in the data, which can lead to misclassificatin of some data points. If a high regularization value is given, then the SVM optimizer will choose to have perfect partitioning and will try its best to have no outliers, leading to minimization in misclassification. Therefore, regularization is not a one fits all solution and can vary based on the dataset. 
+
 You: We can also look at the gamma parameter. The gamma parameter defines how far the influence of a single training example reaches. When gamma values are low, we calculate where the separation line should be using points farthest away from the probable separation line. A low gamma value would indicate that the data points are sparse. When gamma values are high, we calculate where the separation line should be using points closest to the probable separation line.
+
 You: Once we tune our parameters, the last thing we can look at is the margin. The margin is the distance of the closest data points from the separation line, which would be the hyperplane. When we define the optimal hyperplane, we are essentially maximazing the margin. A good margin is equidistant as far as possible from the different classes. Once we achieve all this, we should have high accuracy and low misclassification.
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
