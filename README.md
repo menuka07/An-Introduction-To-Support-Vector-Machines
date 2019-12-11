@@ -89,26 +89,26 @@ And what we're trying to do? We're trying to maximize that. So we want to maximi
 
 <img src="image9.png" width="456" /> 
 
-Where &alpha;<sub>i</sub> is the multiplier for each constraint. Note that the right term is equal to zero. Hence adding it to w squared does not affect it. To find the minimum of this equation we got to find it’s derivatives and set them to zero.
+Where &alpha;<sub>i</sub> is the multiplier for each constraint. Note that the right term in the above equation is equal to zero. Hence adding it to w squared does not affect it. To find the minimum of this equation we got to find it’s derivatives and set them to zero.
 
 Partial of L with respect to w gives following equation:
 
 <img src="image10.png" width="256" /> 
 
-Note that this is a differentiation with respect to a vector. This tells us that vector w is a linear sum of some of the samples. Some because alpha sub i is zero for some samples. It is only non zero for samples in the gutter. 
+Note that this is a differentiation with respect to a vector. The equation we get after differentiation tells us that vector w is a linear sum of samples in the gutter. Only the samples in the gutter because &alpha;<sub>i</sub> is zero for other samples. It is only non zero for samples in the gutter. 
 
 
 Now differentiating L with respect to b gives:
 
-
+<img src="image11.png" width="256" /> 
 
 Now plugging the value of w back in L we get, 
 
-
+<img src="image12.png" width="256" /> 
 
 Simplifying the equations gives:
 
-
+<img src="image13.png" width="256" /> 
 
 Note that the optimization depends only on the dot product of the pairs of samples.
 
