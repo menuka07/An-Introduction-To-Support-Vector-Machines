@@ -83,7 +83,7 @@ And what we're trying to do? We're trying to maximize that. So we want to maximi
 
 <img src="image9.png" width="456" /> 
 
-Where alpha sub i is the multiplier for each constraint. Note that the right term is equal to zero. Hence adding it to w squared does not affect it. To find the minimum of this equation we got to find it’s derivatives and set them to zero.
+Where &alpha;<sub>i</sub> is the multiplier for each constraint. Note that the right term is equal to zero. Hence adding it to w squared does not affect it. To find the minimum of this equation we got to find it’s derivatives and set them to zero.
 
 Partial of L with respect to w gives following equation:
 
