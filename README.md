@@ -29,9 +29,15 @@ Lets start off with sweet great-grandmother Ann.
 
 **You:** Great question sweetheart! First of all, lets give a formal name to the line. The line that separates the classes is known as the decision boundary. Now, coming to your question. There are situations where we cannot get perfect classification such as when there is an overlap of data as you mentioned. In situations like these, tuning parameters come into play. In SVM, we have two main tuning parameters: regularization and gamma. Regularization works in that it calculates and tells the SVM how much to avoid misclassifying each of the training samples. There are two approaches, either we draw a decision boundary that has some points misclassified into the wrong class or we draw a decision boundary that results in zero misclassified points by having a perfect partition. There are trade-offs involved if you choose either technique. If a high regularization value is given, then the SVM optimizer will choose to have some misclassified points in the data, which can lead to misclassificatin of some data points into the wrong class. If a low regularization value is given, then the SVM optimizer will choose to have perfect partitioning and will try its best to have no misclassified points, leading to minimization in misclassification. Therefore, regularization is not a one fits all solution and can vary based on the dataset. 
 
+<img src="regularization.png" width="456" />
+
 **You:** We can also look at the gamma parameter. The gamma parameter defines how far the influence of a single training sample reaches. When gamma values are low, we calculate where the separation decision boundary should be using points farthest away from the probable separation decision boundary. A low gamma value would indicate that the data points are sparse. When gamma values are high, we calculate where the separation decision boundary should be using points closest to the probable separation decision boundary.
 
+<img src="gamma.png" width="456" />
+
 **You:** Once we tune our parameters, the last thing we can look at is the margin. The margin is the distance of the closest data points from the separation line, which would be the hyperplane. When we define the optimal hyperplane, we are essentially maximazing the margin. A good margin is equidistant as far as possible from the different classes.Once we achieve all this, we should have high accuracy and low misclassification.
+
+<img src="margin.png" width="456" />
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
