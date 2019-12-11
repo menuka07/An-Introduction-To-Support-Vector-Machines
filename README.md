@@ -33,9 +33,13 @@ Lets start off with sweet great-grandmother Ann.
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
-**Daughter:** Very nice Mom! I think I see that having widest possible separation between the samples of classes can yiels a good classifier but I am curious how would we make a decision rule mathematically that would use this decision boundary? 
+**Daughter:** Very nice Mom! I think I see that having widest possible separation between the samples of classes can yield a good classifier but I am curious how would we make a decision rule mathematically that would use this decision boundary? 
 
-**You:** Brilliant question. 
+**You:** Brilliant question honey. This will require us to use some pencil and for the derivations. How about we do it after this yummy dinner?
+
+**Daughter:** Sounds good.
+
+(After the dinner you and your daughter resume the discussion.)
 
 Imagine, a vector w of any length you like constrained to be perpendicular to the medium line or the gutter line. We don't know anything about its length yet. Then we also have some unknown u. And we have a vector that points to it by excel as shown below. 
 
