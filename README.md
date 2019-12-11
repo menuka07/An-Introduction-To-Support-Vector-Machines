@@ -75,15 +75,13 @@ Okay we have some equations now. But let’s not forget what are we actually try
 
 <img src="image7.png" width="356" /> 
 
-If we have a unit normal to the median line of the street, taking the dot product of the difference vector with that unit normal will give us the width of the street. But if you remember we said that that w is a normal to the median line. So we can multiply the difference vector with the w and divide by the magnitude of w to make it a unit vector. So that product is in fact a scalar, and it's the width of the street.
+If we have a unit normal to the median line of the street, taking the dot product of the difference vector with that unit normal will give us the width of the street. But if you remember we said that that w is a normal to the median line. So we can multiply the difference vector with the w and divide by the magnitude of w to make it a unit vector. So that product is in fact a scalar, and it's the width of the street. Substituting x positive dot w with 1-b from the equation that constrains the samples that lie in the gutter. Similarly x negative dot w will be substituted with -(1+b). This gives the width of the street as 2 over the magnitude of w. 
 
 <img src="image8.png" width="256" /> 
 
-Substituting x positive dot w with 1-b from the equation that constrains the samples that lie in the gutter. Similarly x negative dot w will be substituted with -(1+b). This gives the width of the street as 2 over the magnitude of w. And what we're trying to do? We're trying to maximize that. So we want to maximize 2 over the magnitude of w. That means that it's okay to drop the constant and minimize the W. For mathematical convenience let’s minimize one half magnitude of w squared which is same as minimizing w.
+And what we're trying to do? We're trying to maximize that. So we want to maximize 2 over the magnitude of w. That means that it's okay to drop the constant and minimize the W. For mathematical convenience let’s minimize one half magnitude of w squared which is same as minimizing w. Now we have an expression that we would like to find the minimum of. Also we have got some constraints that we would like to honor. Lagrange multipliers can be helpful here. If we want to find the extremum of a function with constraints then using lagrange multipliers gives us a new expression, which we can maximize or minimize without thinking about the constraints anymore. Hence our new equations that we want to minimize without any constraints is:
 
-<img src="image9.png" width="256" /> 
-
-Now we have an expression that we would like to find the minimum of. Also we have got some constraints that we would like to honor. Lagrange multipliers can be helpful here. If we want to find the extremum of a function with constraints then using lagrange multipliers gives us a new expression, which we can maximize or minimize without thinking about the constraints anymore. Hence our new equations that we want to minimize without any constraints is:
+<img src="image9.png" width="456" /> 
 
 Where alpha sub i is the multiplier for each constraint. Note that the right term is equal to zero. Hence adding it to w squared does not affect it. To find the minimum of this equation we got to find it’s derivatives and set them to zero.
 
