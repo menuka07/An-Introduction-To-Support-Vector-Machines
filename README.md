@@ -21,7 +21,9 @@ Lets start off with sweet great-grandmother Ann.
 
 **Mother:** That sounds fairly simple but I am sure there are more complex examples of things that need to be classified. What if there are examples where we cannot simply just draw a line and have the classes be divided?
 
-**You:** You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. This allows us work with and separate non-linear data.
+**You:** You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. This allows us work with and separate non-linear data. This can be better visualized with the image below. 
+
+![transformation example](mother.png)
 
 **Husband:** Honey, I have another question for you. How do you deal with overlap between data points? How do we decide where to draw the line in this case?
 
