@@ -59,13 +59,72 @@ Remember the dot product has taken the projection on the w. And the bigger that 
 
 ![image 3](image3.png)
 
-The trouble now is we don't know what constant to use. And we don't know which w to use either. We know that w has to be perpendicular to the median line to the street but there are lots of w's that are perpendicular to the median line because it can be of any length.So we don't have enough constraint here to fix a particular b or a particular w. So, next we're going to lay on some additional constraints on the situation so that we can actually calculate calculate b and w.
+The trouble now is we don't know what constant to use. And we don't know which w to use either. We know that w has to be perpendicular to the median line to the street but there are lots of w's that are perpendicular to the median line because it can be of any length.So we don't have enough constraint here to fix a particular b or a particular w. So, next we're going to lay on some additional constraints on the situation so that we can actually calculate calculate b and w. If we take the dot product of w with some positive sample and we have b just like our decision rule, we are going to want that to be equal to or greater than 1. Likewise, if we dot w with some negative sample then that has to be equal to or less than minus one. 
+
+![image 4](image4.png)
+
+To make things simpler we can reduce these two equations to one by introducing a new variable y_i such that y_i is equal to plus one, for positive samples and minus one for negative. Then we multiply both equations with $y_i$. In the case of negative samples multiplication with a -1 flips the inequality and both the equations become same.
+
+![image 5](image5.png) 
+
+Now, let me bring that one over to the left side making it equal to or greater than zero. 
+
+![image 6](image6.png) 
+
+For the samples in the gutter it's going to be exactly zero.
+
+![image 7](image7.png) 
+
+Okay we have some equations now. But let’s not forget what are we actually trying to do. We're trying to figure out how to arrange for the line to be such that the street, separating the pluses from the minuses as wide as possible. So what's the width of the street? We don’t know it yet but let’s define few vectors as shown below:
 
 
-If we take the dot product of w with some positive sample and we have b just like our decision rule, we are going to want that to be equal to or greater than 1. Likewise, if we dot w with some negative sample then that has to be equal to or less than minus one. 
+If we have a unit normal to the median line of the street, taking the dot product of the difference vector with that unit normal will give us the width of the street.
 
 
-To make things simpler we can reduce these two equations to one by introducing a new variable y_i such that y_i is equal to plus one, for positive samples and minus one for negative. Multiplying above equations with y_i gives:
+But if you remember we said that that w is a normal to the median line. So we can multiply the difference vector with the w and divide by the magnitude of w to make it a unit vector. So that product is in fact a scalar, and it's the width of the street.
+
+Substituting x positive dot w with 1-b from the equation that constrains the samples that lie in the gutter. Similarly x negative dot w will be substituted with -(1+b). This gives the width of the street as 2 over the magnitude of w. And what we're trying to do? We're trying to maximize that. So we want to maximize 2 over the magnitude of w. That means that it's okay to drop the constant and minimize the W. For mathematical convenience let’s minimize one half magnitude of w squared which is same as minimizing w.
+
+Now we have an expression that we would like to find the minimum of. Also we have got some constraints that we would like to honor. Lagrange multipliers can be helpful here. If we want to find the extremum of a function with constraints then using lagrange multipliers gives us a new expression, which we can maximize or minimize without thinking about the constraints anymore. Hence our new equations that we want to minimize without any constraints is:
+
+Where alpha sub i is the multiplier for each constraint. Note that the right term is equal to zero. Hence adding it to w squared does not affect it. To find the minimum of this equation we got to find it’s derivatives and set them to zero.
+
+Partial of L with respect to w gives following equation:
+
+Note that this is a differentiation with respect to a vector. This tells us that vector w is a linear sum of some of the samples. Some because alpha sub i is zero for some samples. It is only non zero for samples in the gutter. 
+
+
+Now differentiating L with respect to b gives:
+
+
+
+Now plugging the value of w back in L we get, 
+
+
+
+Simplifying the equations gives:
+
+
+
+Note that the optimization depends only on the dot product of the pairs of samples.
+
+
+
+Now putting the w back into the decision rule gives:
+
+
+
+Note that the decision rule also depends only on the dot product of the vectors and the unknown.
+
+
+
+
+
+
+
+
+
+
 
 
 
