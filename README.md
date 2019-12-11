@@ -69,11 +69,11 @@ To make things simpler we can reduce these two equations to one by introducing a
 
 Now, let me bring that one over to the left side making it equal to or greater than zero. 
 
-![image 6](image6.png) 
+<img src="image6.png" width="256" />
 
 For the samples in the gutter it's going to be exactly zero.
 
-![image 7](image7.png) 
+<img src="image7.png" width="256" /> 
 
 Okay we have some equations now. But let’s not forget what are we actually trying to do. We're trying to figure out how to arrange for the line to be such that the street, separating the pluses from the minuses as wide as possible. So what's the width of the street? We don’t know it yet but let’s define few vectors as shown below:
 
