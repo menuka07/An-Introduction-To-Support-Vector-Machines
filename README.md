@@ -37,7 +37,7 @@ Lets start off with sweet great-grandmother Ann.
 
 **You:** Once we tune our parameters, the last thing we can look at is the margin. The margin is the distance of the closest data points from the separation line, which would be the hyperplane. When we define the optimal hyperplane, we are essentially maximazing the margin. A good margin is equidistant as far as possible from the different classes.Once we achieve all this, we should have high accuracy and low misclassification.
 
-<img src="margin.png" width="456" />
+<img src="margin.png" width="400" />
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
