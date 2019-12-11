@@ -15,6 +15,8 @@ Lets start off with sweet great-grandmother Ann.
 
 **You:** Well grandma, what SVM does is, that it creates a line called the hyperplane which separate outs the different classes. In our case, the hpyerplane would separate the apples from the oranges. In the end, we want the optimal hyperplane that maximizes our ability to separate out the different classes and classify with high accuracy.
 
+![simple example](simple.png)
+
 **Mother:** That sounds fairly simple but I am sure there are more complex examples of things that need to be classified. What if there are examples where we cannot simply just draw a line and have the classes be divided?
 
 **You:** You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. This allows us work with and separate non-linear data.
