@@ -66,26 +66,29 @@ Okay we have some equations now. But let’s not forget what are we actually try
 
 If we have a unit normal to the median line of the street, taking the dot product of the difference vector with that unit normal will give us the width of the street. But if you remember we said that that w is a normal to the median line. So we can multiply the difference vector with the w and divide by the magnitude of w to make it a unit vector. So that product is in fact a scalar, and it's the width of the street. Substituting x positive dot w with 1-b from the equation that constrains the samples that lie in the gutter. Similarly x negative dot w will be substituted with -(1+b). This gives the width of the street as 2 over the magnitude of w. 
 
-<img align="left" src="image8.png" width="256" > And what we're trying to do? We're trying to maximize that. So we want to maximize 2 over the magnitude of w. That means that it's okay to drop the constant and minimize the W. For mathematical convenience let’s minimize one half magnitude of w squared which is same as minimizing w. Now we have an expression that we would like to find the minimum of. Also we have got some constraints that we would like to honor. Lagrange multipliers can be helpful here. <img src="image9.png" width="456" >  If we want to find the extremum of a function with constraints then using lagrange multipliers gives us a new expression, which we can maximize or minimize without thinking about the constraints anymore. Hence our new equations that we want to minimize without any constraints is:
+<img align="left" src="image8.png" width="256" > And what we're trying to do? We're trying to maximize that. So we want to maximize 2 over the magnitude of w. That means that it's okay to drop the constant and minimize the W. For mathematical convenience let’s minimize one half magnitude of w squared which is same as minimizing w. Now we have an expression that we would like to find the minimum of. Also we have got some constraints that we would like to honor. Lagrange multipliers can be helpful here. If we want to find the extremum of a function with constraints then using lagrange multipliers gives us a new expression, which we can maximize or minimize without thinking about the constraints anymore. Hence our new equations that we want to minimize without any constraints is:
 
-
+<img align="left" src="image9.png" width="456" >
 
 Where &alpha;<sub>i</sub> is the multiplier for each constraint. Note that the right term in the above equation is equal to zero. Hence adding it to w squared does not affect it. To find the minimum of this equation we got to find it’s derivatives and set them to zero.
 
-Partial of L with respect to w gives following equation: <img align="right" src="image10.png" width="256"> 
+Partial of L with respect to w gives following equation: 
+
+<img align="right" src="image10.png" width="256"> 
 
 Note that this is a differentiation with respect to a vector. The equation we get after differentiation tells us that vector w is a linear sum of samples in the gutter. Only the samples in the gutter because &alpha;<sub>i</sub> is zero for other samples. It is only non zero for samples in the gutter. 
 
+Now differentiating L with respect to b gives: 
 
-Now differentiating L with respect to b gives: <img align="right" src="image11.png" width="200" /> 
+<p align="center"> <img src="image11.png" width="200" > <p>
 
 Now plugging the value of w back in L we get, 
 
-<img src="image12.png" width="456" /> 
+<p align="center"> <img src="image12.png" width="456" > <p>
 
 Simplifying the equations gives: 
 
-<img src="image13.png" width="456" /> 
+<p align="center"> <img src="image13.png" width="456" > <p>
 
 Note that the optimization depends only on the dot product of the pairs of samples(x<sub>i</sub>, x<sub>j</sub>).
 
