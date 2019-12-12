@@ -61,7 +61,8 @@ The trouble now is we don't know what constant to use. And we don't know which w
 
 <img align="left"  src="image6.png" width="256" > Bringing the 1 over to the left side makes it equal to or greater than zero. For the samples in the gutter it's going to be exactly zero.
 
-Okay we have some equations now. But let’s not forget what are we actually trying to do. We're trying to figure out how to arrange for the line to be such that the street, separating the pluses from the minuses as wide as possible. <img align="right" src="image7.png" width="256" > So what's the width of the street? We don’t know it yet but let’s define few vectors as shown below:
+
+Okay we have some equations now. But let’s not forget what are we actually trying to do. <img align="right" src="image7.png" width="256" > We're trying to figure out how to arrange for the line to be such that the street, separating the pluses from the minuses as wide as possible. So what's the width of the street? We don’t know it yet but let’s define few vectors as shown below:
 
 If we have a unit normal to the median line of the street, taking the dot product of the difference vector with that unit normal will give us the width of the street. But if you remember we said that that w is a normal to the median line. So we can multiply the difference vector with the w and divide by the magnitude of w to make it a unit vector. So that product is in fact a scalar, and it's the width of the street. Substituting x positive dot w with 1-b from the equation that constrains the samples that lie in the gutter. Similarly x negative dot w will be substituted with -(1+b). This gives the width of the street as 2 over the magnitude of w. 
 
