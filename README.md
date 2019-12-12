@@ -57,7 +57,7 @@ Now, imagine a vector w of any length you like constrained to be perpendicular t
 
 <p align="center"> <img src="image1.png" width="256" > <p>
 
- <img align="right" src="image2.png" width="256"> So we can take u and dot it with w, and measure whether or not that number is equal to or greater than some constant. <img align="right" src="image3.png" width="256" /> Remember the dot product has taken the projection on the w. And the bigger that projection is the further out along this line, the projection will lie. And eventually it will be so big that the projection crosses the median line of the street and we will say it must be a positive sample. Or we can say without loss of generality, that the dot product, plus some constant b is equal to or greater than zero. If that's true, then it's a positive sample. So that's our decision rule.
+ <img align="right" src="image2.png" width="256"> So we can take u and dot it with w, and measure whether or not that number is equal to or greater than some constant. Remember the dot product has taken the projection on the w. And the bigger that projection is the further out along this line, the projection will lie. And eventually it will be so big that the projection crosses the median line of the street and we will say it must be a positive sample. <img align="right" src="image3.png" width="256" /> Or we can say without loss of generality, that the dot product, plus some constant b is equal to or greater than zero. If that's true, then it's a positive sample. So that's our decision rule.
 
 
 
