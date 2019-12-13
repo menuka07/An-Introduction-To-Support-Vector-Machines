@@ -37,7 +37,7 @@ This term is formally known as regularization. If a high regularization value is
 
 **You:** Once we fix the regularization parameter, we can look at is the margin. The margin is the distance of the closest data points from the separation line. When we define the optimal hyperplane, we are essentially maximazing the margin. A good margin is equidistant as far as possible from the different classes. Once we achieve this, we should have high accuracy and low misclassification.
 
-<img src="margin.png" width="400" />
+<p align="center"> <img src="margin.png" width="400" > <p>
 
 **Daughter:** Very nice Mom! I think I see that having widest possible separation between the samples of classes can yield a good classifier but I am curious how would we make a decision rule mathematically that would use this decision boundary? 
 
