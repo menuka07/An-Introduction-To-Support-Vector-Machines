@@ -101,5 +101,13 @@ Now putting the w back into the decision rule gives:
 
 Note that the decision rule also depends only on the dot product of the vectors and the unknown.
 
+**Daughter:** Interesting. What are some of the applications of it, Mom?
+
+**You:** There are various applications of SVM. The SVM algorithm has been widely applied in the biological and other sciences. Hand-written characters can be recognized using SVM. Classification of images can also be performed using SVMs. SVMs are helpful in text and hypertext categorization as well. 
+
+**Daughter:** Wow! that is great. Can we actually build a few models and see the results ourselves?
+
+**You:** Sure. The "sklearn" library in python has the implementation of SVM. We can build a model using that. 
+
 
 
