@@ -9,11 +9,11 @@ Lets start off with sweet great-grandmother Ann.
 
 **Great-Grandmother Ann:** You keep talking about something called SVM. What in the world does that mean hon?
 
-**You:** Great-Granny, SVM stands for support vector machine. It is a technique used in machine learning to create decision boundaries in order to classify features as belonging to different classes. Lets say you have apples and oranges and you want to classify all the apples into one class and classify all the oranges as belonging to a different class. We can use SVM to make sure that all the apples and oranges get put in the correct category.
+**You:** Great-Granny, SVM stands for support vector machine. It is a technique used in machine learning to create decision boundaries in order to classify features as belonging to different classes. Lets say you have apples and oranges and you want to classify all the apples into one class and classify all the oranges as belonging to a different class. We can use linear SVM to make sure that all the apples and oranges get put in the correct category.
 
 **Grandmother Sarah:** Wow, this technique is really applicable to lots of cases but how do we classify the oranges and apples into different classes?
 
-**You:** Well grandma, what SVM does is, that it creates a separation line called the hyperplane which separate outs the different classes. In our case, we draw the hyperplane in such a way that it would separate the apples from the oranges. In the end, we want the optimal hyperplane that maximizes our ability to separate out the different classes and classify with high accuracy.
+**You:** Well grandma, what linear SVM does is, it creates a separation line called the hyperplane which separate outs the different classes. In our case, we draw the hyperplane in such a way that it would separate the apples from the oranges. In the end, we want the optimal hyperplane that maximizes our ability to separate out the different classes and classify with high accuracy.
 
 (You arrange the apples and oranges on the dinner table and put a stick between them to show the separation.)
 
@@ -27,11 +27,13 @@ Lets start off with sweet great-grandmother Ann.
 
 **Husband:** Honey, I have another question for you. How do you deal with overlap between data points? How do we decide where to draw the line in this case?
 
-**You:** Great question sweetheart! First of all, lets give a formal name to the line. The line that separates the classes is known as the decision boundary. Now, coming to your question. There are situations where we cannot get perfect classification such as when there is an overlap of data as you mentioned. In situations like these, tuning parameters come into play. In SVM, we have two main tuning parameters: regularization and gamma. Regularization works in that it calculates and tells the SVM how much to avoid misclassifying each of the training samples. There are two approaches, either we draw a decision boundary that has some points misclassified into the wrong class or we draw a decision boundary that results in zero misclassified points by having a perfect partition. There are trade-offs involved if you choose either technique. If a high regularization value is given, then the SVM optimizer will choose to have some misclassified points in the data, which can lead to misclassificatin of some data points into the wrong class. If a low regularization value is given, then the SVM optimizer will choose to have perfect partitioning and will try its best to have no misclassified points, leading to minimization in misclassification. Therefore, regularization is not a one fits all solution and can vary based on the dataset. 
+**You:** Great question sweetheart! There are situations where we cannot get perfect classification with a single line, for example when there is an overlap of data as you mentioned. Now, lets give a formal name to the line. The line that separates the classes is known as the decision boundary and this decision boundary can be a collection of straight lines. We can always have many small stright lines joining in such a way that it divides the data perfectly into two classes. 
+
+Now coming back to your question, for such complex problems there are two approaches, either we draw a decision boundary that has some points misclassified into the wrong class or we draw a decision boundary that results in zero misclassified points by having a perfect partition. There are trade-offs involved if we choose either technique. In the former case the model complexity is less but classification accuracy is also low too. In the latter case, the model becomes more complex and the classification accuracy increases. But this increase of classification accuracy is not always a good thing because this might overfit the data and when a new data is seen by this overfitted model it will misclassify it. Hence the classification accuracy on test data is low. 
+
+This term is formally known as regularization. If a high regularization value is given to the model, then the SVM optimizer will choose to have some misclassified points in the data. This can lead to misclassificatin of some data points into the wrong class. If a low regularization value is given, then the SVM optimizer will choose to have perfect partitioning and will try its best to have no misclassified points, leading to minimization in misclassification. 
 
 <img src="regularization.png" width="456" />
-
-**You:** We can also look at the gamma parameter. The gamma parameter defines how far the influence of a single training sample reaches. When gamma values are low, we calculate where the separation decision boundary should be using points farthest away from the probable separation decision boundary. A low gamma value would indicate that the data points are sparse. When gamma values are high, we calculate where the separation decision boundary should be using points closest to the probable separation decision boundary.
 
 <img src="gamma.png" width="456" />
 
