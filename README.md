@@ -14,7 +14,7 @@ Lets start off with sweet great-grandmother Ann.
 
 (You arrange the apples and oranges on the dinner table and put a stick between them to show the separation.)
 
-<p align="center"> <img src="simple.png" width="256" > <p>
+<p align="center"> <img src="simple.png" width="256" > <p/>
 
 **Mother:** That sounds fairly simple but I am sure there are more complex examples of things that need to be classified. What if there are examples where we cannot simply just draw a line and have the classes be divided?
 
