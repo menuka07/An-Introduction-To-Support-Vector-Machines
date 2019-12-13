@@ -1,6 +1,3 @@
-# SVM_Tutorial
-Data Mining Course Project
-
 An Introduction To The World Of Support Vector Machines
 
 Imagine it's Thanksgiving Day and you are joined at the dinner table with all of your family. As you feast on Turkey and delicious Pumpkin pie, the topic of discussion at the table is centered around SVM. However, some of the relatives at the dinner table are quite confused as to what SVM even stands for. Now it is your job to explain to the confused relatives at the table what SVM is. You will start off with the most confused relative (great-grandmother) and make your way up to the relative that knows the most about SVM (daughter)
@@ -17,13 +14,13 @@ Lets start off with sweet great-grandmother Ann.
 
 (You arrange the apples and oranges on the dinner table and put a stick between them to show the separation.)
 
-<img src="simple.png" width="256" />
+<p align="center"> <img src="simple.png" width="256" > <p>
 
 **Mother:** That sounds fairly simple but I am sure there are more complex examples of things that need to be classified. What if there are examples where we cannot simply just draw a line and have the classes be divided?
 
 **You:** You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. This allows us work with and separate non-linear data. This can be better visualized with the image below. 
 
-<img src="mother.png" width="456" />
+<p align="center"> <img src="mother.png" width="456" > <p>
 
 **Husband:** Honey, I have another question for you. How do you deal with overlap between data points? How do we decide where to draw the line in this case?
 
@@ -33,7 +30,7 @@ Now coming back to your question, for such complex problems there are two approa
 
 This term is formally known as regularization. If a high regularization value is given to the model, then the SVM optimizer will choose to have some misclassified points in the data. This can lead to misclassificatin of some data points into the wrong class. If a low regularization value is given, then the SVM optimizer will choose to have perfect partitioning and will try its best to have no misclassified points, leading to minimization in misclassification. Choosing the right regularization is a challenging task.
 
-<img src="regularization.png" width="456" />
+<p align="center"> <img src="regularization.png" width="456" > <p>
 
 **You:** Once we fix the regularization parameter, we can look at is the margin. The margin is the distance of the closest data points from the separation line. When we define the optimal hyperplane, we are essentially maximazing the margin. A good margin is equidistant as far as possible from the different classes. Once we achieve this, we should have high accuracy and low misclassification.
 
