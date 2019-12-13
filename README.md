@@ -1,4 +1,4 @@
-# An Introduction To The World Of Support Vector Machines
+
 
 ##### Imagine it's Thanksgiving Day and you are joined at the dinner table with all of your family. As you feast on Turkey and delicious Pumpkin pie, the topic of discussion at the table is centered around SVM. However, some of the relatives at the dinner table are quite confused as to what SVM even stands for. Now it is your job to explain to the confused relatives at the table what SVM is. You will start off with the most confused relative (great-grandmother) and make your way up to the relative that knows the most about SVM (daughter)
 
@@ -128,6 +128,9 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 Citations:
 https://www.youtube.com/watch?v=_PwhiWxHK8o
+
 https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72
+
 https://scikit-learn.org/stable/datasets/index.html
+
 https://scikit-learn.org/stable/modules/svm.html
