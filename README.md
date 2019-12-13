@@ -147,8 +147,12 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 [Lecture on SVM by Professor Patrick Winston- MIT](https://www.youtube.com/watch?v=_PwhiWxHK8o)
 
+[DataCamp tutorial on SVM in R](https://www.datacamp.com/community/tutorials/support-vector-machines-r)
+
 [Medium article on support vector machines](https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72)
 
 [Inbuilt datasets in sklearn library](https://scikit-learn.org/stable/datasets/index.html)
 
 [Official documentation of SVM in sklearn library](https://scikit-learn.org/stable/modules/svm.html)
+
+
