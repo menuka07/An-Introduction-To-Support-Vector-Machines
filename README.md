@@ -18,7 +18,7 @@ Lets start off with sweet great-grandmother Ann.
 
 **You:** You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. The task then becomes to choose the right transformation which can give us a linearly separable data. This trick allows us work with and separate non-linear data easily using the same linear SVM technique. This can be better visualized with the image below. 
 
-<p align="center"> <img src="mother.png" width="700" height="200" > </p>
+<p align="center"> <img src="mother.png" width="256" > </p>
 
 **Husband:** Honey, I have another question for you. What if the data cannot be perfectly separated even after the transformation? How do you deal with overlap between data points? How do we decide where to draw the line in this case?
 
@@ -68,23 +68,23 @@ If we have a unit normal to the median line of the street, taking the dot produc
 
 <img align="left" src="image8.png" width="256" > And what we're trying to do? We're trying to maximize that. So we want to maximize 2 over the magnitude of w. That means that it's okay to drop the constant and minimize the w. For mathematical convenience let’s minimize one half magnitude of w squared which is same as minimizing w. Now we have an expression that we would like to find the minimum of. Also we have got some constraints that we would like to honor. Lagrange multipliers can be helpful here. If we want to find the extremum of a function with constraints then using lagrange multipliers gives us a new expression, which we can maximize or minimize without thinking about the constraints anymore. Hence our new equations that we want to minimize without any constraints is:
 
-<p align="center"> <img src="image9.png" width="456" > <p>
+<p align="center"> <img src="image9.png" width="456" > </p>
 
 Where &alpha;<sub>i</sub> is the multiplier for each constraint. Note that the right term in the above equation is equal to zero. Hence adding it to w squared does not affect it. To find the minimum of this equation we got to find it’s derivatives and set them to zero. Partial of L with respect to w gives following equation: 
 
-<p align="center"> <img src="image10.png" width="256" >  <p>
+<p align="center"> <img src="image10.png" width="256" >  </p>
 
 Note that this is a differentiation with respect to a vector. The equation we get after differentiation tells us that vector w is a linear sum of samples in the gutter. Only the samples in the gutter because &alpha;<sub>i</sub> is zero for other samples. It is only non zero for samples in the gutter. Now differentiating L with respect to b gives: 
 
-<p align="center"> <img src="image11.png" width="200" > <p>
+<p align="center"> <img src="image11.png" width="200" > </p>
 
 Now plugging the value of w back in L we get, 
 
-<p align="center"> <img src="image12.png" width="456" > <p>
+<p align="center"> <img src="image12.png" width="456" > </p>
 
 Simplifying the equations gives: 
 
-<p align="center"> <img src="image13.png" width="456" > <p>
+<p align="center"> <img src="image13.png" width="456" > </p>
 
 Note that the optimization depends only on the dot product of the pairs of samples(x<sub>i</sub>, x<sub>j</sub>).
 
@@ -121,6 +121,7 @@ Note that the decision rule also depends only on the dot product of the vectors 
   
   
 **Daughter:** That is wonderful mom. The results look great. It is indeed a very good classification model. Thank you for teaching me this. 
+
 
 Citations:
 https://www.youtube.com/watch?v=_PwhiWxHK8o
