@@ -48,7 +48,7 @@ This term is formally known as regularization. If a high regularization value is
 
 Let's say we want to classify two classes(pluses and minuses). <img align="right" src="image15.png" width="256" > Our goal is to derive the decision boundary in such a way that it separates these two classes in widest possible way. Let's call this separation a street which has gutters at the edges running parallel to it and we want to maximize the width of this street.  
 
-Now, imagine a vector $`w_{ab}`$ of any length you like constrained to be perpendicular to the median line or the gutter line of the street. We don't know anything about its length yet. <img align="left" src="image1.png" width="256" > Then we also have some unknown u. And we have a vector that points to it by excel as shown in the image on the right. To be able to classify that unknown into one of the two classes, what we would really be interested in is whether the unknown is on the right side of the street or on the left side of the street. So we want to project the vector u down on to one that’s perpendicular to the street. With this we will have the distance in the direction of w. And, the further ought we go, the closer we will get to being on the right side of the street(right from the median line).
+Now, imagine a vector w of any length you like constrained to be perpendicular to the median line or the gutter line of the street. We don't know anything about its length yet. <img align="left" src="image1.png" width="256" > Then we also have some unknown u. And we have a vector that points to it by excel as shown in the image on the right. To be able to classify that unknown into one of the two classes, what we would really be interested in is whether the unknown is on the right side of the street or on the left side of the street. So we want to project the vector u down on to one that’s perpendicular to the street. With this we will have the distance in the direction of w. And, the further ought we go, the closer we will get to being on the right side of the street(right from the median line).
 
 So we can take u and dot it with w, and measure whether or not that number is equal to or greater than some constant. <img align="right" src="image2.png" width="256"> Remember the dot product has taken the projection of u on the w and the bigger the projection is, the further out along w the projection will lie. And eventually it will be so big that the projection crosses the median line of the street and we will say it must be a positive sample. Or we can say without loss of generality, that the  <img align="right" src="image3.png" width="256" /> dot product, plus some constant b is equal to or greater than zero. If that's true, then it's a positive sample. So that's our decision rule.
 
@@ -92,7 +92,7 @@ Note that the optimization depends only on the dot product of the pairs of sampl
 
 Now putting the w back into the decision rule gives: 
 
-<p align="center"> <img src="image14.png" width="456" > <p>
+<p align="center"> <img src="image14.png" width="456" > </p>
 
 Note that the decision rule also depends only on the dot product of the vectors and the unknown.
 
@@ -104,22 +104,22 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 **You:** Sure. The "sklearn" library in python has the implementation of SVM. We can build a model using that. 
 
-<p align="center"> <img src="Screen Shot 2019-12-13 at 12.17.30 AM.png" width="856" > <p>
+<p align="center"> <img src="Screen Shot 2019-12-13 at 12.17.30 AM.png" width="856" > </p>
 
-<p align="center"> <img src="Screen Shot 2019-12-13 at 12.18.16 AM.png" width="856" > <p>
+<p align="center"> <img src="Screen Shot 2019-12-13 at 12.18.16 AM.png" width="856" > </p>
   
 **Daughter:** Wow! That is a good accuracy. 
 
 **You:** Let's build one more model for handwritten digit recognition from images. 
 
-<p align="center"> <img src="Screen Shot 2019-12-13 at 12.27.17 AM.png" width="856" > <p>
+<p align="center"> <img src="Screen Shot 2019-12-13 at 12.27.17 AM.png" width="856" > </p>
 
 **Daughter:** The quality of the images look poor. Yes that is low resolution images. Let's see how successfully can the model recognize it.
 
-<p align="center"> <img src="Screen Shot 2019-12-13 at 12.38.49 AM.png" width="856" > <p>
+<p align="center"> <img src="Screen Shot 2019-12-13 at 12.38.49 AM.png" width="856" > </p>
 
 
-<p align="center"> <img src="Screen Shot 2019-12-13 at 12.39.07 AM.png" width="856" > <p>
+<p align="center"> <img src="Screen Shot 2019-12-13 at 12.39.07 AM.png" width="856" > </p>
   
   
 **Daughter:** That is wonderful mom. The results look great. It is indeed a very good classification model. Thank you for teaching me this. 
