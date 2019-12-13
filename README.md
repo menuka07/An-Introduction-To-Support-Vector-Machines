@@ -54,9 +54,7 @@ So we can take u and dot it with w, and measure whether or not that number is eq
 
 **Daughter:** Hmm and the trouble is we don't know what constant to use. 
 
-**You:** Yes you are right. And we don't know which w to use either. We know that w has to be perpendicular to the median line to the street. But there are lots of w's that are perpendicular to the median line because it can be of any length. So we don't have enough constraint here to fix a particular b or a particular w. So, next we're going to <img align="left" src="image4.png" width="256" > lay on some additional constraints on the situation so that we can actually calculate calculate b and w. 
-
-If we take the dot product of w with some positive sample and we have b just like our decision rule, we are going to want that to be equal to or greater than 1. Likewise, if we dot w with some negative sample then that has to be equal to or less than minus one. 
+**You:** Yes you are right. And we don't know which w to use either. We know that w has to be perpendicular to the median line to the street. But there are lots of w's that are perpendicular to the median line because it can be of any length. So we don't have enough constraint here to fix a particular b or a particular w. So, next we're going to <img align="left" src="image4.png" width="256" > lay on some additional constraints on the situation so that we can actually calculate calculate b and w. If we take the dot product of w with some positive sample and we have b just like our decision rule, we are going to want that to be equal to or greater than 1. Likewise, if we dot w with some negative sample then that has to be equal to or less than minus one. 
 
 <img align="left" src="image5.png" width="256"> To make things simpler we can reduce these two equations to one by introducing a new variable y<sub>i</sub> such that y<sub>i</sub> is equal to plus one, for positive samples and minus one for negative. Then we multiply both equations with y<sub>i</sub>. In the case of negative samples multiplication with a -1 flips the inequality and both the equations become same.
 
