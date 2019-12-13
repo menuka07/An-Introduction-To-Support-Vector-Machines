@@ -106,7 +106,7 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 <p align="center"> <img src="Screen Shot 2019-12-13 at 12.18.16 AM.png" width="856" > </p>
   
-**Daughter:** Wow! That is a good accuracy. 
+**Daughter:** That is a good accuracy. 
 
 **You:** Let's build one more model for handwritten digit recognition from images. 
 
@@ -125,12 +125,12 @@ Note that the decision rule also depends only on the dot product of the vectors 
 (End of the conversation.)
 
 
-Citations: 
+#### Citations: 
 
 [Lecture on SVM by Professor Patrick Winston- MIT](https://www.youtube.com/watch?v=_PwhiWxHK8o)
 
-https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72
+[Medium article on support vector machines](https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72)
 
-https://scikit-learn.org/stable/datasets/index.html
+[Inbuilt datasets in sklearn library](https://scikit-learn.org/stable/datasets/index.html)
 
-https://scikit-learn.org/stable/modules/svm.html
+[Official documentation of SVM in sklearn library](https://scikit-learn.org/stable/modules/svm.html)
