@@ -106,11 +106,11 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 **You:** Sure. The "e1071" library in R and "sklearn" library in python has the implementation of SVM. Let's first build a simple model in R and visualize how the decision boundary actually looks like using a linear svm.
 
-<p align="center"> <img src="Screen Shot 2019-12-13 at 3.10.46 PM.png" width="756" > </p>
+<p align="center"> <img src="Screen Shot 2019-12-13 at 3.10.46 PM.png" width="800" > </p>
 
 <p align="center"> <img src="Rplot1.png" width="656" > </p>
 
-<p align="center"> <img src="Screen Shot 2019-12-13 at 3.11.15 PM.png" width="756" > </p>
+<p align="center"> <img src="Screen Shot 2019-12-13 at 3.11.15 PM.png" width="800" > </p>
 
 <p align="center"> <img src="Rplot2.png" width="656" > </p>
 
