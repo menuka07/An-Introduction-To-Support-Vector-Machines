@@ -1,4 +1,4 @@
-**Imagine it's Thanksgiving Day and you are joined at the dinner table with all of your family. As you feast on Turkey and delicious Pumpkin pie, the topic of discussion at the table is centered around SVM. However, some of the relatives at the dinner table are quite confused as to what SVM even stands for. Now it is your job to explain to the confused relatives at the table what SVM is. You will start off with the most confused relative (great-grandmother) and make your way up to the relative that knows the most about Machine Learning(daughter who is a maths major).**
+#### Imagine it's Thanksgiving Day and you are joined at the dinner table with all of your family. As you feast on Turkey and delicious Pumpkin pie, the topic of discussion at the table is centered around SVM. However, some of the relatives at the dinner table are quite confused as to what SVM even stands for. Now it is your job to explain to the confused relatives at the table what SVM is. You will start off with the most confused relative (great-grandmother) and make your way up to the relative that knows the most about Machine Learning(daughter who is a maths major).
 
 Lets start off with sweet great-grandmother Ann.
 
@@ -129,7 +129,7 @@ Note that the decision rule also depends only on the dot product of the vectors 
 (End of the conversation.)
 
 
-#### Citations: 
+**Citations:** 
 
 [Lecture on SVM by Professor Patrick Winston- MIT](https://www.youtube.com/watch?v=_PwhiWxHK8o)
 
