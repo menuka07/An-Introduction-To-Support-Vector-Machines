@@ -18,7 +18,7 @@ Lets start off with sweet great-grandmother Ann.
 
 **You:** You are absolutely correct mom. There are many examples in which it is hard to simply draw a straight line and divide the classes. In reality most data is randomly distributed. In such cases, you have to apply transformations to the features and these transformations are referred to as kernels. The task then becomes to choose the right transformation which can give us a linearly separable data. This trick allows us work with and separate non-linear data easily using the same linear SVM technique. This can be better visualized with the image below. 
 
-<p align="center"> <img src="mother.png" width="456" > </p>
+<p align="center"> <img src="mother.png" width="500" > </p>
 
 **Husband:** Honey, I have another question for you. What if the data cannot be perfectly separated even after the transformation? How do you deal with overlap between data points? How do we decide where to draw the line in this case?
 
@@ -122,11 +122,12 @@ Note that the decision rule also depends only on the dot product of the vectors 
   
 **Daughter:** That is wonderful mom. The results look great. It is indeed a very good classification model. Thank you for teaching me this. 
 
+(End of the conversation.)
 
 
 Citations: 
 
-(https://www.youtube.com/watch?v=_PwhiWxHK8o)
+[Lecture on SVM by Professor Patrick Winston- MIT](https://www.youtube.com/watch?v=_PwhiWxHK8o)
 
 https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72
 
