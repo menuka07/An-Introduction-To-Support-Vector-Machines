@@ -109,5 +109,5 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 **You:** Sure. The "sklearn" library in python has the implementation of SVM. We can build a model using that. 
 
-<p align="center"> <img src="Screen Shot 2019-12-13 at 12.17.30 AM.png" width="556" > <p>
+<p align="center"> <img src="Screen Shot 2019-12-13 at 12.17.30 AM.png" width="856" > <p>
 
