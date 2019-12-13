@@ -127,4 +127,4 @@ Note that the decision rule also depends only on the dot product of the vectors 
 <p align="center"> <img src="Screen Shot 2019-12-13 at 12.39.07 AM.png" width="856" > <p>
   
   
-**Daughter:** That is wonderful mom. It is indeed a very good classification model. Thank you for teaching me this. 
+**Daughter:** That is wonderful mom. The results look great. It is indeed a very good classification model. Thank you for teaching me this. 
