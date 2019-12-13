@@ -123,11 +123,10 @@ Note that the decision rule also depends only on the dot product of the vectors 
 **Daughter:** That is wonderful mom. The results look great. It is indeed a very good classification model. Thank you for teaching me this. 
 
 
-Citations: /
 
-[Quora profile link for Adam D'Angelo](http://www.quora.com/Adam-DAngelo)
+Citations: 
 
-https://www.youtube.com/watch?v=_PwhiWxHK8o
+(https://www.youtube.com/watch?v=_PwhiWxHK8o)
 
 https://medium.com/machine-learning-101/chapter-2-svm-support-vector-machine-theory-f0812effc72
 
