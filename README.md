@@ -104,7 +104,13 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 **Daughter:** Wow! that is great. Can we actually build a few models and see the results ourselves?
 
-**You:** Sure. The "e1071" library in R and "sklearn" library in python has the implementation of SVM. We can build a model using these libraries. Let's build a svm classifier in python for classification of cancer as malignant or benign.
+**You:** Sure. The "e1071" library in R and "sklearn" library in python has the implementation of SVM. Let's first build a simple model in R and visualize how the decision boundary actually looks like using a linear svm.
+
+
+
+**Daughter:** This is great. I can clearly see the decision boundary and the separation of data.
+
+**You:** Now, let's build a svm classifier in python for classification of cancer as malignant or benign.
 
 <p align="center"> <img src="Screen Shot 2019-12-13 at 12.17.30 AM.png" width="856" > </p>
 
