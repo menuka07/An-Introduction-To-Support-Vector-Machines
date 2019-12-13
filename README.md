@@ -58,7 +58,7 @@ So we can take u and dot it with w, and measure whether or not that number is eq
 
 <img align="left" src="image5.png" width="256"> To make things simpler we can reduce these two equations to one by introducing a new variable y<sub>i</sub> such that y<sub>i</sub> is equal to plus one, for positive samples and minus one for negative. Then we multiply both equations with y<sub>i</sub>. In the case of negative samples multiplication with a -1 flips the inequality and both the equations become same.
 
-<img align="left"  src="image6.png" width="256" > Bringing the 1 over to the left side makes it equal to or greater than zero. For the samples in the gutter it's going to be exactly zero.
+<img align="right"  src="image6.png" width="256" > Bringing the 1 over to the left side makes it equal to or greater than zero. For the samples in the gutter it's going to be exactly zero.
 
 Okay we have some equations now. But let’s not forget what are we actually trying to do. 
 
