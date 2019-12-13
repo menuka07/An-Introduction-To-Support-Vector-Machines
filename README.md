@@ -119,6 +119,7 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 <p align="center"> <img src="Screen Shot 2019-12-13 at 12.27.17 AM.png" width="856" > <p>
 
+**Daughter:** The quality of the images look poor. Yes that is low resolution images. Let's see how successfully can the model recognize it.
 
-
+<p align="center"> <img src="Screen Shot 2019-12-13 at 12.27.17 AM.png" width="856" > <p>
 
