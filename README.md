@@ -117,5 +117,8 @@ Note that the decision rule also depends only on the dot product of the vectors 
 
 **You:** Let's build one more model for handwritten digit recognition from images. 
 
+<p align="center"> <img src="Screen Shot 2019-12-13 at 12.27.17 AM.png" width="856" > <p>
+
+
 
 
